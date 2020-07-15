@@ -1,6 +1,6 @@
 enum lines {NOLINE,SINGLELINE,DOUBLELINE};
 enum modes {NOMODE,INT_FLOAT,INT_FLOAT_FLOAT_FLOAT,INT_INT_INT_INT_INT};
-enum parameters {ADJECTIVE_VELOCITY,DYNAMIC_VISCOSITY,DENSITY,EXTERNAL_FORCE_X,EXTERNAL_FORCE_Y, EXTERNAL_FORCE_Z};
+enum parameters {EXTERNAL_FORCE_X,EXTERNAL_FORCE_Y, EXTERNAL_FORCE_Z};
 enum sizes {NODES,ELEMENTS,DIRICHLET};
 enum coords {EQUIS,YE,ZETA};
 
@@ -137,10 +137,7 @@ class mesh{
         int *indices_dirich;
         condition *dirichlet_list;        
     public:
-        void setParameters(float u_bar,float nu, float rho, float f_x, float f_y, float f_z){
-            parameters[ADJECTIVE_VELOCITY]=u_bar;
-            parameters[DYNAMIC_VISCOSITY]=nu;
-            parameters[DENSITY]=rho;
+        void setParameters(float f_x, float f_y, float f_z){
             parameters[EXTERNAL_FORCE_X]=f_x;
             parameters[EXTERNAL_FORCE_Y]=f_y;
             parameters[EXTERNAL_FORCE_Z]=f_z;

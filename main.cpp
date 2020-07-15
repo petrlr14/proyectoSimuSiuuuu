@@ -26,9 +26,7 @@ int main(int argc, char *argv[])
 
     mesh m;
     leerMallaYCondiciones(m,filename);
-    
     crearSistemasLocales(m,localKs,localbs);
-    
     zeroes(K,4*m.getSize(NODES));
     zeroes(b,4*m.getSize(NODES));
     ensamblaje(m,localKs,localbs,K,b);
