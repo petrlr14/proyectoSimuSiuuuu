@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "petrlr14",
+      "name": "Pedro Gómez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/31825365?v=4",
+      "profile": "http://pedrogas.me",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "proyectoSimuSiuuuu",
+  "projectOwner": "petrlr14",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
