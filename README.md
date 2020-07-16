@@ -12,7 +12,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://pedrogas.me"><img src="https://avatars2.githubusercontent.com/u/31825365?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Gómez</b></sub></a><br /><a href="https://github.com/petrlr14/proyectoSimuSiuuuu/commits?author=petrlr14" title="Code">💻</a></td>
+    <td align="center"><a href="http://pedrogas.me"><img src="https://avatars2.githubusercontent.com/u/31825365?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Gómez</b></sub></a><br /><a href="https://github.com/petrlr14/proyectoSimuSiuuuu/commits?author=petrlr14" title="Code">💻</a> <a href="https://github.com/petrlr14/proyectoSimuSiuuuu/pulls?q=is%3Apr+reviewed-by%3Apetrlr14" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
